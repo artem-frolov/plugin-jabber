@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
-    'Fabiang\\Xmpp\\' => array($vendorDir . '/fabiang/xmpp/src'),
+    'Fabiang\\Xmpp\\' => array($vendorDir . '/stanx/fabiang-xmpp/src'),
 );

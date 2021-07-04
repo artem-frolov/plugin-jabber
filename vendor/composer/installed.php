@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'f3a2fd57ee967b6721b83d97369198e174e12bde',
+        'name' => 'kanboard/plugin-jabber',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'kanboard/plugin-jabber' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'f3a2fd57ee967b6721b83d97369198e174e12bde',
+            'dev_requirement' => false,
+        ),
+        'psr/log' => array(
+            'pretty_version' => '1.1.4',
+            'version' => '1.1.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/log',
+            'aliases' => array(),
+            'reference' => 'd49695b909c3b7628b6289db5479a1c204601f11',
+            'dev_requirement' => false,
+        ),
+        'stanx/fabiang-xmpp' => array(
+            'pretty_version' => '0.8.0',
+            'version' => '0.8.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../stanx/fabiang-xmpp',
+            'aliases' => array(),
+            'reference' => '2165b8c61f0ed1d5733cc4cd892f0ade7456cc8d',
+            'dev_requirement' => false,
+        ),
+    ),
+);

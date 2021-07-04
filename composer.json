@@ -14,6 +14,6 @@
         "discard-changes": true
     },
     "require" : {
-        "fabiang/xmpp" : "0.7.0"
+        "stanx/fabiang-xmpp" : "0.8.0"
     }
 }
